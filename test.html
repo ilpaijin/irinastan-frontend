@@ -39,15 +39,17 @@
     <div class="container">
         <div class="row">
             <div class="form-style-5">
-                <form class="col s10" method="POST" action="video.html">
-                    <fieldset>
-                        <legend><span class="number">1</span> Candidate Login</legend>
-                        <div class="input-field">
-                            <i class="material-icons prefix">account_circle</i>
-                            <input id="icon_prefix" type="text" class="validate">
-                            <label for="icon_prefix">candidate code</label>
-                       </div>
-                    </fieldset>
+                <form class="col s12" method="POST" action="video.html">
+
+                     <legend>
+                         <span class="number">1</span> Candidate Login
+                     </legend>
+                     <div class="input-field">
+                         <i class="material-icons prefix">account_circle</i>
+                         <input id="code" type="text" class="validate">
+                         <label for="code">candidate code</label>
+                    </div>
+
                     <button class="btn waves-effect waves-light pink lighten-3 btn-large right" type="submit" name="action">Apply
                         <i class="material-icons right">send</i>
                     </button>
@@ -55,5 +57,9 @@
             </div>
         </div>
     </div>
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+    <script type="text/javascript" src="bower_components/materialize/dist/js/materialize.min.js"></script>
+    <script type="text/javascript" src="bower_components/angular-materialize/src/angular-materialize.js"></script>
 </body>
 </html>
