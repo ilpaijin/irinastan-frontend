@@ -1,0 +1,8 @@
+{
+  "name": "bower",
+  "dependencies": {
+    "angular": "~1.4",
+    "angular-materialize":"master",
+    "jquery": "~2.1"
+  }
+}
